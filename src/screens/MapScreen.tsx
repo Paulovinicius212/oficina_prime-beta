@@ -103,7 +103,6 @@ export default function MapScreen() {
             longitudeDelta: 0.0421,
           }}
         >
-          {/* Marcar a localização do usuário */}
           <Marker
             coordinate={{
               latitude: userLocation.latitude,
@@ -113,7 +112,6 @@ export default function MapScreen() {
             description='Este é o local atual do usuário.'
           />
 
-          {/* Marcar os outros problemas */}
           {markers.map((marker) => (
             <Marker
               key={marker.id}

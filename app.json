@@ -1,28 +1,49 @@
 {
   "expo": {
-    "name": "oficina-prime",
+    "name": "Oficina-Prime",
     "slug": "oficina-prime",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "userInterfaceStyle": "automatic",
+
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyAC4CXm6kPkRTtHUBoKyxay1_i3C-RqN_A"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAC4CXm6kPkRTtHUBoKyxay1_i3C-RqN_A"
+        }
+      },
+      "package": "com.vinix21.oficinaprime"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "description": "Um aplicativo para facilitar a comunicação sobre problemas e soluções na oficina automotiva.",
+    "platforms": ["ios", "android", "web"],
+    "extra": {
+      "eas": {
+        "projectId": "660d4c43-914e-4199-b4f9-045b18fda6ef"
+      }
     }
   }
 }

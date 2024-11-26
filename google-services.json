@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "89532398907",
+    "project_id": "oficina-prime",
+    "storage_bucket": "oficina-prime.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89532398907:android:9dd716c070e57a474c8b1e",
+        "android_client_info": {
+          "package_name": "com.oficina.prime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtlRCRzT6t15uzqcA87PgvhFOx84DbwqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
